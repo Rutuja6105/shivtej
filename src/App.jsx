@@ -254,7 +254,7 @@ export default function App() {
   const [toast,       setToast]       = useState(null);
   const [loading,     setLoading]     = useState(true);
   const [dbStatus,    setDbStatus]    = useState("connecting");
-  const [tCreds,      setTCreds]      = useState(DEF_TC);
+  const [tCreds]      = useState(DEF_TC);
   const [events,      setEvents]      = useState([]);
   const [contribs,    setContribs]    = useState([]);
   const [expenses,    setExpenses]    = useState([]);
